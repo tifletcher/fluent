@@ -2,6 +2,7 @@
 [![codecov](https://codecov.io/gh/btlines/fluent/branch/master/graph/badge.svg)](https://codecov.io/gh/btlines/fluent)
 [![Dependencies](https://app.updateimpact.com/badge/852442212779298816/fluent.svg?config=compile)](https://app.updateimpact.com/latest/852442212779298816/fluent)
 [![License](https://img.shields.io/:license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Download](https://api.bintray.com/packages/beyondthelines/maven/fluent/images/download.svg) ](https://bintray.com/beyondthelines/maven/fluent/_latestVersion)
 
 # Fluent
 The seamless translation layer
@@ -21,7 +22,7 @@ In order to use Fluent you need to add the following lines to your `build.sbt`:
 ```scala
 resolvers += Resolver.bintrayRepo("beyondthelines", "maven")
 
-libraryDependencies += "beyondthelines" %% "fluent" % "0.0.2"
+libraryDependencies += "beyondthelines" %% "fluent" % "0.0.5"
 ```
 
 ## Dependencies
